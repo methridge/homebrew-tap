@@ -3,7 +3,7 @@ cask "protect" do
   name "protect"
   desc "UniFi Protect View Switcher CLI"
   homepage "https://github.com/methridge/protect"
-  version "1.0.4"
+  version "1.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "protect" do
   on_macos do
     on_intel do
       url "https://github.com/methridge/protect/releases/download/v#{version}/protect_Darwin_x86_64.tar.gz"
-      sha256 "b2826fc1b6ec04d200152dc91d75ad89c1b1f9cadc00f27573956b1ba3be10a1"
+      sha256 "18ee1b8250cf6d620735d4180077f03db5323bbd77942cc309bbd37721ad8c3e"
     end
     on_arm do
       url "https://github.com/methridge/protect/releases/download/v#{version}/protect_Darwin_arm64.tar.gz"
-      sha256 "777a42ed1ee270f07167cc76785cb952adf75f1c184c2fabae89529019985dbd"
+      sha256 "d291693ce3068c16e1ed20d2271005d98748a42088c9dab3613d9e819aa92d6d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/methridge/protect/releases/download/v#{version}/protect_Linux_x86_64.tar.gz"
-      sha256 "fc99561354dad3253737502e4053cd5e1a25f3c22d69c0bcafb539faa889d7ae"
+      sha256 "cfa8f1d519013641b59cd6ccf0f2d05d930e633ad0f19cf44d2ea9313a45e98e"
     end
     on_arm do
       url "https://github.com/methridge/protect/releases/download/v#{version}/protect_Linux_arm64.tar.gz"
-      sha256 "2e85ed303c0bcc335524d5e97b2e22bfbab19b836a952ccf6290a923a9530a8d"
+      sha256 "0f6ed854056e4d298cd532b5ed27897af169bf86795ce04ff884046c8e2479c1"
     end
   end
 
